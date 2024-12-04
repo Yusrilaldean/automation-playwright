@@ -1,0 +1,26 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "playwright-bdd": "^7.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "test-web": "npx bddgen && npx playwright test --headed",
+    "test-api": "npx bddgen && npx playwright test"
+  },
+  "workspaces": [
+    "src/**"
+  ],
+  "dependencies": {
+    "@playwright/browser-chromium": "^1.49.0",
+    "jest": "^29.7.0"
+  }
+}
