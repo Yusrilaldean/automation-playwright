@@ -19,3 +19,8 @@
    Jalankan perintah berikut untuk menjalankan test API:
    ```bash  
    npm run test-api "/filepath/"
+
+3. **Run Reporting Test**  
+   Jalankan perintah berikut untuk menampilkan reporting test:
+   ```bash  
+   npx playwright show-report
